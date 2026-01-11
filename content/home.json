@@ -1,0 +1,86 @@
+{
+  "hero": {
+    "title": "Connect with Nature, Family, and God",
+    "subtitle": "A sanctuary in Tapaz, Capiz",
+    "backgroundImage": "/philippine-mountains-forest-sunrise.jpg",
+    "ctaButtons": [
+      {
+        "text": "Donate",
+        "href": "/donate",
+        "type": "primary",
+        "icon": "heart"
+      },
+      {
+        "text": "Learn More",
+        "href": "#about",
+        "type": "secondary",
+        "icon": "arrow-right"
+      }
+    ]
+  },
+  "mission": {
+    "title": "Welcome to Camp Moses",
+    "description": "Camp Moses is a family camp and retreat center dedicated to facilitating life-changing experiences where people can encounter God, strengthen family bonds, and find renewal in the beauty of His creation. Nestled in the heart of Tapaz, Capiz, we provide a sacred space for worship, fellowship, and spiritual growth.",
+    "missionTitle": "Mission",
+    "missionStatement": "To create a sanctuary where life-changing experiences glorify God. We do this by offering a beautiful retreat center and Christ-centered teaching that strengthens faith and serves the Church.",
+    "logoImage": "/logo/Camp Moses Logo.png",
+    "scripture": {
+      "text": "Therefore, if anyone is in Christ, the new creation has come: The old has gone, the new is here!",
+      "reference": "2 Corinthians 5:17"
+    },
+    "missionVideo": "aJZgoHLJipc",
+    "theBeginningVideo": "obRNAnaz25o"
+  },
+  "vision": {
+    "title": "Our Vision",
+    "statement": "We strive to be a trustworthy, God-honoring ministry built on three promises",
+    "promises": [
+      {
+        "title": "Stewardship",
+        "description": "We faithfully manage our resources and are led by a joyful, supported staff and volunteer community."
+      },
+      {
+        "title": "Sanctuary",
+        "description": "We provide a safe, beautiful, and well-equipped environment where nature reflects God's glory."
+      },
+      {
+        "title": "Hospitality",
+        "description": "We serve our guests with excellence, anticipating needs and going above and beyond to make everyone feel welcome."
+      }
+    ]
+  },
+  "impact": {
+    "title": "Making a Difference",
+    "description": "The transformative power of Camp Moses through measurable community impact",
+    "stats": [
+      {
+        "number": "100+",
+        "text": "Youth Empowered Across Our Programs",
+        "icon": "Sprout"
+      },
+      {
+        "number": "200+",
+        "text": "Hours of Community Programs",
+        "icon": "Map"
+      },
+      {
+        "number": "25+",
+        "text": "Dedicated Mentors and Volunteers Engaged",
+        "icon": "Users2"
+      }
+    ]
+  },
+  "donationTeaser": {
+    "title": "Help Us Continue This Mission",
+    "description": "Your support enables these youth camps, retreats, and community projects. Together, we can continue to build God's Kingdom and transform lives through the ministry of Camp Moses.",
+    "ctaText": "Give Today"
+  },
+  "kubosSection": {
+    "title": "Explore the Kubos",
+    "description": "Discover our unique accommodations designed for rest, fellowship, and connection with nature"
+  },
+  "contactSection": {
+    "title": "Get In Touch",
+    "description": "Have questions or want to book Camp Moses for your next retreat? We'd love to hear from you!"
+  }
+}

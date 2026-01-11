@@ -1,0 +1,83 @@
+{
+  "title": "Support Camp Moses",
+  "description": "Your generous donations help us continue our mission. Simple ways to donate and make a difference in the lives of young people and our community.",
+  "impactSection": {
+    "title": "How Your Gift Makes an Impact",
+    "items": [
+      {
+        "icon": "heart",
+        "title": "Youth Ministry Programs",
+        "description": "Supporting life-changing retreats, summer camps, and discipleship programs for young people"
+      },
+      {
+        "icon": "building",
+        "title": "Facility Maintenance",
+        "description": "Maintaining and improving kubos, grounds, and amenities for a safe and welcoming environment"
+      },
+      {
+        "icon": "heart",
+        "title": "Community Outreach",
+        "description": "Serving the local community through various ministry initiatives and support programs"
+      }
+    ]
+  },
+  "donationMethods": {
+    "title": "Simple Ways to Donate",
+    "methods": [
+      {
+        "type": "etransfer",
+        "title": "E-Transfer Donation",
+        "description": "Send funds via e-transfer",
+        "icon": "smartphone",
+        "details": {
+          "recipient": "Gateway International Fellowship of Toronto",
+          "email": "gifttoronto.org@gmail.com",
+          "important": "IMPORTANT FOR TAX RECEIPTS: In the Message/Memo field of your e-Transfer, you MUST include your: Full Name, Email Address, and Home Address. We need this information to issue your tax-deductible receipt."
+        }
+      },
+      {
+        "type": "cheque",
+        "title": "Cheque Donation",
+        "description": "Mail your donation by cheque",
+        "icon": "file-text",
+        "details": {
+          "payableTo": "Gateway International Fellowship of Toronto (GIFT)",
+          "mailAddress": "27 Coltman Cres.\nScarborough, Ontario\nCanada M1B 2A3",
+          "note": "Issue your donation cheque to Gateway International Fellowship of Toronto (GIFT)"
+        }
+      },
+      {
+        "type": "online-canada",
+        "title": "Online Giving (Canada)",
+        "description": "Donate by credit or debit card",
+        "icon": "building",
+        "details": {
+          "buttonText": "Donate via Canada Helps",
+          "buttonUrl": "https://www.canadahelps.org/en/charities/gateway-international-fellowship-of-toronto/",
+          "note": "Camp Moses is powered by GIFT Canada."
+        }
+      },
+      {
+        "type": "online-us",
+        "title": "Online Giving (United States)",
+        "description": "Donate by credit or debit card securely",
+        "icon": "building",
+        "details": {
+          "organizationName": "Camp Moses",
+          "recipientCode": "R2273",
+          "buttonText": "Donate via Means USA",
+          "buttonUrl": "https://www.meansusa.org/?q=give-online",
+          "note": "Please note that there is an 'online fee' for online giving."
+        }
+      }
+    ]
+  },
+  "taxInfo": {
+    "title": "Tax Receipt Information",
+    "description": "All donations to Gateway International Fellowship of Toronto (GIFT) are tax-deductible. Tax receipts will be issued for your records."
+  },
+  "thankYou": {
+    "title": "Thank You",
+    "message": "Your generosity enables us to continue our mission of transforming lives and building God's Kingdom. May the Lord bless you abundantly for your faithful stewardship and partnership in ministry."
+  }
+}

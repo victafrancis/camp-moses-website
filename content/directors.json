@@ -1,0 +1,36 @@
+{
+  "title": "Our Leadership",
+  "description": "Guided by faith and committed to excellence in ministry",
+  "members": [
+    {
+      "name": "Mr. Jose Falco Jr.",
+      "role": "Chairman",
+      "description": "Graduated Graphic Design at George Brown College Career Services in Toronto, Canada. Studied also at University of Iloilo in the Philippines and Seneca College in Newham, Canada.",
+      "image": "/board/jose.jpg"
+    },
+    {
+      "name": "Ms. Marybeth Villavecencio Cambel",
+      "role": "Treasurer",
+      "description": "Graduated Bachelor of Science in Commerce at University of San Agustin Iloilo City Philippines and Colegio de las Hijas de Jesus.",
+      "image": "/board/marybeth.png"
+    },
+    {
+      "name": "Ms. Alexine Elizabeth Jalandoni",
+      "role": "Secretary",
+      "description": "Graduated in 1991. Bachelor of Science major Psychology from the University of San Agustin, Iloilo City.",
+      "image": "/board/alexine.png"
+    },
+    {
+      "name": "Mrs. Lina Posecion",
+      "role": "",
+      "description": "Graduated Accounting & Finance in University of Iloilo. Studied also at University of San Agustin Presently active licensed real estate agent in New York U.S.A.",
+      "image": "/board/lina.png"
+    },
+    {
+      "name": "Mrs. Yvonne Encio Bobon-Falco",
+      "role": "",
+      "description": "Acting Field Representative. Graduated at Philippine Christian University in Manila Philippines.",
+      "image": "/board/yvonne.png"
+    }
+  ]
+}

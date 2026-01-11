@@ -1,0 +1,95 @@
+{
+  "kids-summer-camp-2022": {
+    "slug": "kids-summer-camp-2022",
+    "title": "Kids Summer Camp 2022 - Experiencing God",
+    "description": "A summer filled with joy, fellowship, and spiritual growth! Over 70 children experienced God's love through worship, games, and outdoor adventures.",
+    "year": "2022",
+    "media": [
+      {
+        "type": "image",
+        "src": "/events/summer-camp-2022/1.jpg",
+        "alt": "Group photo of kids at summer camp"
+      },
+      {
+        "type": "image",
+        "src": "/events/summer-camp-2022/2.jpg",
+        "alt": "Handing out awards"
+      },
+      {
+        "type": "image",
+        "src": "/events/summer-camp-2022/3.jpg",
+        "alt": "Handing out awards"
+      },
+      {
+        "type": "video",
+        "src": "/events/summer-camp-2022/video-Bingbing speech.mp4",
+        "alt": "Bingbing giving a speech"
+      },
+      {
+        "type": "video",
+        "src": "/events/summer-camp-2022/video-Yvonne speech.mp4",
+        "alt": "Yvonne giving a speech"
+      },
+      {
+        "type": "video",
+        "src": "/events/summer-camp-2022/video-children on stage memory verse.mp4",
+        "alt": "Children reciting memory verse on stage"
+      },
+      {
+        "type": "video",
+        "src": "/events/summer-camp-2022/video-children singing on stage 1.mp4",
+        "alt": "Children singing on stage session 1"
+      },
+      {
+        "type": "video",
+        "src": "/events/summer-camp-2022/video-children singing on stage 2.mp4",
+        "alt": "Children singing on stage session 2"
+      },
+      {
+        "type": "video",
+        "src": "/events/summer-camp-2022/video-group menory verse 2.mp4",
+        "alt": "Group memory verse session 2"
+      },
+      {
+        "type": "video",
+        "src": "/events/summer-camp-2022/video-group menory verse.mp4",
+        "alt": "Group memory verse session"
+      },
+      {
+        "type": "video",
+        "src": "/events/summer-camp-2022/video-group singing stage.mp4",
+        "alt": "Group singing on stage"
+      },
+      {
+        "type": "video",
+        "src": "/events/summer-camp-2022/video-ice cream.mp4",
+        "alt": "Ice cream time at camp"
+      },
+      {
+        "type": "video",
+        "src": "/events/summer-camp-2022/video-preparing to sing.mp4",
+        "alt": "Preparing to sing performance"
+      },
+      {
+        "type": "video",
+        "src": "/events/summer-camp-2022/video-song.mp4",
+        "alt": "Song performance"
+      },
+      {
+        "type": "video",
+        "src": "/events/summer-camp-2022/video-stage memory verse.mp4",
+        "alt": "Memory verse on stage performance"
+      },
+      {
+        "type": "video",
+        "src": "/events/summer-camp-2022/video-volunteers action song.mp4",
+        "alt": "Volunteers performing action song"
+      },
+      {
+        "type": "video",
+        "src": "/events/summer-camp-2022/video-volunteers singing on stage.mp4",
+        "alt": "Volunteers singing on stage"
+      }
+    ]
+  }
+}

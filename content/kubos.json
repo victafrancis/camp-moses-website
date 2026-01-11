@@ -1,0 +1,48 @@
+{
+  "kubo-1": {
+    "id": "kubo-1",
+    "name": "Kubo 1",
+    "image": "/kubos/kubo1/kubo1Boardmembers.jpg",
+    "gallery": [
+      { "src": "/kubos/kubo1/kubo1Boardmembers.jpg", "alt": "Kubo 1 boardmembers" },
+      { "src": "/kubos/kubo1/kubo1Porch.jpg", "alt": "Kubo 1 Porch" },
+      { "src": "/kubos/kubo1/kubo1porch2.jpg", "alt": "Kubo 1 Porch" },
+      { "src": "/kubos/kubo1/kubo1back.jpg", "alt": "Kubo 1 Back" },
+      { "src": "/kubos/kubo1/kubo1a.jpg", "alt": "Kubo 1 Room" },
+      { "src": "/kubos/kubo1/kubo1Fruits.jpg", "alt": "Kubo 1 Fruits" },
+      { "src": "/kubos/kubo1/kubo1Guests.jpg", "alt": "Kubo 1 Guests" },
+      { "src": "/kubos/kubo1/kubo1window.jpg", "alt": "Kubo 1 Window" }
+    ]
+  },
+  "kubo-2": {
+    "id": "kubo-2",
+    "name": "Kubo 2",
+    "image": "/kubos/kubo2/kubo2b.jpg",
+    "gallery": [
+      { "src": "/kubos/kubo2/kubo2b.jpg", "alt": "Kubo 2" },
+      { "src": "/kubos/kubo2/kubo2a.jpg", "alt": "Kubo 2" },
+      { "src": "/kubos/kubo2/kubo2Back.jpg", "alt": "Kubo 2 back" },
+      { "src": "/kubos/kubo2/kubo2with3.jpg", "alt": "Kubo 2 and 3" }
+    ]
+  },
+  "kubo-3": {
+    "id": "kubo-3",
+    "name": "Kubo 3",
+    "image": "/kubos/kubo3/kubo3a.jpg",
+    "gallery": [
+      { "src": "/kubos/kubo3/kubo3a.jpg", "alt": "Kubo 3" },
+      { "src": "/kubos/kubo3/kubo3.jpg", "alt": "Kubo 3" },
+      { "src": "/kubos/kubo3/kubo3b.jpg", "alt": "Kubo 3" }
+    ]
+  },
+  "gazebo": {
+    "id": "gazebo",
+    "name": "Gazebo",
+    "image": "/kubos/gazebo/gazebo-landscape.jpg",
+    "gallery": [
+      { "src": "/kubos/gazebo/gazebo-landscape.jpg", "alt": "Gazebo landscape" },
+      { "src": "/kubos/gazebo/gazebo-with-ribbon.jpg", "alt": "Gazebo with ribbon" },
+      { "src": "/kubos/gazebo/gazebo.jpg", "alt": "Gazebo" },
+      { "src": "/kubos/gazebo/gazebo2.jpg", "alt": "Gazebo" }   ]
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "title": "Life At Camp Moses",
+  "description": "Witness the faithfulness of God through the history and impact of Camp Moses",
+  "events": [
+    {
+      "year": "2024",
+      "title": "Children's Ministry",
+      "description": "Continuing our mission to reach young lives, we expanded our children's ministry with engaging programs that help kids discover God's love in nature.",
+      "videoId": "YdWYNPemvGQ"
+    },
+    {
+      "year": "2023",
+      "title": "Camp Moses Children's Camp",
+      "description": "Our children's camp provided a safe, joyful environment where over 80 children experienced God's presence through worship, games, and spiritual lessons.",
+      "videoId": "KC36RDM2yEY"
+    },
+    {
+      "year": "2023",
+      "title": "First Official Youth Retreat",
+      "description": "Over 60 young people attended our first official youth retreat, experiencing transformation through worship, community, and Christ-centered teaching in God's creation.",
+      "videoId": "HpKfNzzXbF0"
+    },
+    {
+      "year": "2022",
+      "title": "Kids Summer Camp - Experiencing God",
+      "description": "Our inaugural kids summer camp brought joy and spiritual growth to 70+ children. Explore photos and videos from this amazing season of ministry.",
+      "gallerySlug": "kids-summer-camp-2022",
+      "thumbnailImage": "/events/summer-camp-2022/1.jpg"
+    },
+    {
+      "year": "2022",
+      "title": "The Bamboo Project",
+      "description": "A community-building initiative where volunteers worked together to plant bamboo seedlings from Mindanao, strengthening both our facilities and our fellowship.",
+      "videoId": "pmWK2QJb160"
+    },
+    {
+      "year": "2021",
+      "title": "We Built a Well for Our Water Supply",
+      "description": "Community members and staff united in this transformative project to build a fresh water well, providing clean water and demonstrating God's provision for Camp Moses and the surrounding community.",
+      "videoId": "wUMo16dPELQ"
+    }
+  ]
+}
