@@ -53,7 +53,7 @@ export default function HomePage() {
   return (
     <main>
       {/* Hero Section */}
-      <section className="relative h-[90vh] flex items-center justify-center text-white">
+      <section className="relative h-[90vh] flex items-end justify-center text-white">
         <div className="absolute inset-0 z-0">
           <Image
             src={content.hero.backgroundImage || "/placeholder.svg"}
@@ -64,7 +64,7 @@ export default function HomePage() {
           />
         </div>
 
-        <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
+        <div className="relative z-10 text-center px-4 max-w-4xl mx-auto pb-20">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 text-balance font-serif">{content.hero.title}</h1>
           <p className="text-xl md:text-2xl mb-8 text-white/95">{content.hero.subtitle}</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
