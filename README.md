@@ -136,4 +136,4 @@ This project is private and proprietary.
 
 ---
 
-*Camp Moses - Connect with Nature, Family, and God*
+*Camp Moses - Discover Nature, Rediscover Your Soul*

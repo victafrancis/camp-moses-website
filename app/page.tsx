@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   description: "Experience life-changing Christian retreats at Camp Moses in Tapaz, Capiz, Philippines. Family camps, youth programs, and spiritual renewal in nature with God.",
   keywords: ["Christian retreat center", "family camp Philippines", "youth ministry Tapaz", "spiritual retreat Capiz", "Camp Moses", "Christian camp Philippines"],
   openGraph: {
-    title: "Camp Moses - Connect with Nature, Family, and God",
+    title: "Camp Moses - Discover Nature, Rediscover Your Soul",
     description: "A sanctuary Christian retreat center in Tapaz, Capiz. Experience life-changing retreats, youth camps, and connect with God in nature.",
     type: "website",
     siteName: "Camp Moses",
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Camp Moses - Connect with Nature, Family, and God",
+    title: "Camp Moses - Discover Nature, Rediscover Your Soul",
     description: "A sanctuary Christian retreat center in Tapaz, Capiz",
     images: ["/camp-moses-skyline.webp"],
   },

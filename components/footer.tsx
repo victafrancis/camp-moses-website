@@ -12,7 +12,7 @@ export function Footer() {
           <div>
             <h3 className="font-bold text-lg mb-4 font-serif">Camp Moses</h3>
             <p className="text-white/90 text-sm leading-relaxed">
-              A sanctuary family camp and retreat center in Tapaz, Capiz. Connect with nature, family, and God.
+              A sanctuary family camp and retreat center in Tapaz, Capiz. Discover Nature, Rediscover Your Soul.
             </p>
           </div>
 

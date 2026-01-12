@@ -17,13 +17,13 @@ const merriweather = Merriweather({
 })
 
 export const metadata: Metadata = {
-  title: "Camp Moses - Connect with Nature, Family, and God",
+  title: "Camp Moses - Discover Nature, Rediscover Your Soul",
   description:
     "A sanctuary family camp and retreat center in Tapaz, Capiz. Experience life-changing retreats, youth camps, and connect with God in nature.",
   keywords: ["camp", "retreat", "family camp", "Tapaz", "Capiz", "Philippines", "youth ministry", "christian retreat"],
   authors: [{ name: "Camp Moses" }],
   openGraph: {
-    title: "Camp Moses - Connect with Nature, Family, and God",
+    title: "Camp Moses - Discover Nature, Rediscover Your Soul",
     description: "A sanctuary family camp and retreat center in Tapaz, Capiz",
     type: "website",
     siteName: "Camp Moses",
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Camp Moses - Connect with Nature, Family, and God",
+    title: "Camp Moses - Discover Nature, Rediscover Your Soul",
     description: "A sanctuary family camp and retreat center in Tapaz, Capiz",
     images: ["/camp-moses-skyline.webp"],
   },
