@@ -29,10 +29,10 @@ export const metadata: Metadata = {
     siteName: "Camp Moses",
     images: [
       {
-        url: "/philippine-mountains-forest-sunrise.jpg",
+        url: "/camp-moses-skyline.webp",
         width: 1200,
         height: 630,
-        alt: "Camp Moses - Philippine Mountains Forest Sunrise",
+        alt: "Camp Moses - Skyline View",
       },
     ],
   },
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Camp Moses - Connect with Nature, Family, and God",
     description: "A sanctuary family camp and retreat center in Tapaz, Capiz",
-    images: ["/philippine-mountains-forest-sunrise.jpg"],
+    images: ["/camp-moses-skyline.webp"],
   },
   icons: {
     icon: "/favicon.ico",
