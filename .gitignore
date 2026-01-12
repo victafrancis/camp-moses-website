@@ -28,3 +28,4 @@ next-env.d.ts
 
 .DS_Store
 *.mp4
+pnpm-lock.yaml
