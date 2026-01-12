@@ -4,7 +4,8 @@ import * as React from "react"
 import Link from "next/link"
 import { Menu } from "lucide-react"
 import { Button } from "@/components/ui/button"
-import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
+import { Sheet, SheetContent, SheetTitle, SheetTrigger } from "@/components/ui/sheet"
+import { VisuallyHidden } from "@radix-ui/react-visually-hidden"
 import { getNavigationContent } from "@/lib/content"
 
 export function Navbar() {
@@ -47,6 +48,9 @@ export function Navbar() {
             </Button>
           </SheetTrigger>
           <SheetContent side="right" className="w-full sm:w-96 p-0">
+            <VisuallyHidden>
+              <SheetTitle>Navigation Menu</SheetTitle>
+            </VisuallyHidden>
             <div className="flex flex-col h-full">
               <nav className="flex-1 overflow-y-auto px-0 py-6">
                 {navContent.navLinks.map((link) => (
