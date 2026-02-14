@@ -105,6 +105,19 @@ To modify content, edit the corresponding JSON files in the `content/` directory
 - **SEO Optimized**: Meta tags and structured data
 - **Performance**: Optimized with Next.js features
 
+## Newsletter Signup (MailerLite)
+
+The newsletter signup uses a server-side Next.js API route at `app/api/subscribe/route.ts` to keep the MailerLite API key secure.
+
+### Local Development to Test Newsletter
+
+Create a `.env.local` file with:
+
+```bash
+MAILERLITE_API_KEY=your_api_key_here
+MAILERLITE_GROUP_ID=your_group_id_here
+```
+
 ## Contributing
 
 1. Fork the repository

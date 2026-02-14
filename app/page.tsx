@@ -235,9 +235,6 @@ export default function HomePage() {
       {/* Board of Directors */}
       <BoardSection />
 
-      {/* Newsletter Signup */}
-      {/* <NewsletterSection /> */}
-
       {/* Contact Section */}
       <section id="contact" className="py-20 bg-white">
         <div className="container mx-auto px-4">
@@ -335,6 +332,9 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      {/* Newsletter Signup */}
+      <NewsletterSection />
     </main>
   )
 }
