@@ -77,8 +77,8 @@ export default function DonatePage() {
                         <div className="flex items-start gap-3">
                           <span className="text-2xl">⚠️</span>
                           <div>
-                            <p className="font-bold text-red-800 text-lg mb-2">IMPORTANT FOR TAX RECEIPTS</p>
-                            <p className="text-red-700 leading-relaxed">{method.details.important}</p>
+                            <p className="font-bold text-amber-800 text-lg mb-2">IMPORTANT FOR TAX RECEIPTS</p>
+                            <p className="text-amber-700 leading-relaxed">{method.details.important}</p>
                           </div>
                         </div>
                       </div>
@@ -98,20 +98,8 @@ export default function DonatePage() {
                       </div>
                     </>
                   )}
-                  {(method.type === "online-canada" || method.type === "online-us") && (
+                  {method.type === "online-canada" && (
                     <>
-                      {method.type === "online-us" && (
-                        <>
-                          <div className="mb-3">
-                            <p className="font-semibold font-serif text-lg mb-1">Organization:</p>
-                            <CopyableText text={method.details.organizationName || ""} />
-                          </div>
-                          <div className="mb-3">
-                            <p className="font-semibold font-serif text-lg mb-1">Recipient Code:</p>
-                            <CopyableText text={method.details.recipientCode || ""} />
-                          </div>
-                        </>
-                      )}
                       <p className="text-foreground leading-relaxed mb-4">
                         {method.details.note}
                       </p>

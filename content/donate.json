@@ -56,19 +56,6 @@
           "buttonUrl": "https://www.canadahelps.org/en/charities/gateway-international-fellowship-of-toronto/",
           "note": "Camp Moses is powered by GIFT Canada."
         }
-      },
-      {
-        "type": "online-us",
-        "title": "Online Giving (United States)",
-        "description": "Donate by credit or debit card securely",
-        "icon": "building",
-        "details": {
-          "organizationName": "Camp Moses",
-          "recipientCode": "R2273",
-          "buttonText": "Donate via Means USA",
-          "buttonUrl": "https://www.meansusa.org/?q=give-online",
-          "note": "Please note that there is an 'online fee' for online giving."
-        }
       }
     ]
   },
