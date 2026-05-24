@@ -1,8 +1,9 @@
 import type { Metadata } from "next"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { Building2, Smartphone, FileText, Heart } from "lucide-react"
+import { Building2, Smartphone, FileText, Heart, CreditCard } from "lucide-react"
 import { getDonateContent } from "@/lib/content"
 import { CopyableText } from "@/components/ui/copyable-text"
+import { PayPalDonateButton } from "@/components/paypal-donate-button"
 
 export const metadata: Metadata = {
   title: "Donate - Support Camp Moses",
@@ -59,10 +60,17 @@ export default function DonatePage() {
                   {method.icon === "building" && <Building2 className="w-16 h-16 mb-6 text-camp-green-old" />}
                   {method.icon === "smartphone" && <Smartphone className="w-16 h-16 mb-6 text-camp-green-old" />}
                   {method.icon === "file-text" && <FileText className="w-16 h-16 mb-6 text-camp-green-old" />}
+                  {method.icon === "credit-card" && <CreditCard className="w-16 h-16 mb-6 text-camp-green-old" />}
                   <CardTitle className="camp-text-green font-serif text-xl mb-2">{method.title}</CardTitle>
                   <CardDescription className="text-base">{method.description}</CardDescription>
                 </CardHeader>
                 <CardContent className="space-y-4 text-base">
+                  {method.type === "paypal" && (
+                    <>
+                      <p className="text-foreground leading-relaxed mb-6">{method.details.note}</p>
+                      <PayPalDonateButton />
+                    </>
+                  )}
                   {method.type === "etransfer" && (
                     <>
                       <div>

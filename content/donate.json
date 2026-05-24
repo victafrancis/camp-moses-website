@@ -25,6 +25,26 @@
     "title": "Simple Ways to Donate",
     "methods": [
       {
+        "type": "paypal",
+        "title": "PayPal Donation",
+        "description": "Donate quickly and securely using PayPal",
+        "icon": "credit-card",
+        "details": {
+          "note": "Use your PayPal account or any major credit or debit card to give securely online."
+        }
+      },
+      {
+        "type": "online-canada",
+        "title": "Online Giving (Canada)",
+        "description": "Donate by credit or debit card",
+        "icon": "building",
+        "details": {
+          "buttonText": "Donate via Canada Helps",
+          "buttonUrl": "https://www.canadahelps.org/en/charities/gateway-international-fellowship-of-toronto/",
+          "note": "Camp Moses is powered by GIFT Canada."
+        }
+      },
+      {
         "type": "etransfer",
         "title": "E-Transfer Donation",
         "description": "Send funds via e-transfer",
@@ -44,17 +64,6 @@
           "payableTo": "Gateway International Fellowship of Toronto (GIFT)",
           "mailAddress": "27 Coltman Cres.\nScarborough, Ontario\nCanada M1B 2A3",
           "note": "Issue your donation cheque to Gateway International Fellowship of Toronto (GIFT)"
-        }
-      },
-      {
-        "type": "online-canada",
-        "title": "Online Giving (Canada)",
-        "description": "Donate by credit or debit card",
-        "icon": "building",
-        "details": {
-          "buttonText": "Donate via Canada Helps",
-          "buttonUrl": "https://www.canadahelps.org/en/charities/gateway-international-fellowship-of-toronto/",
-          "note": "Camp Moses is powered by GIFT Canada."
         }
       }
     ]
