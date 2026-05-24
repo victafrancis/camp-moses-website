@@ -21,7 +21,7 @@ export function PayPalDonateButton() {
   }, [scriptLoaded])
 
   return (
-    <div id="donate-button-container">
+    <div id="donate-button-container" className="flex justify-center">
       <div id="donate-button"></div>
       <Script
         src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js"
