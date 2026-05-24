@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.0.3 - 2026-05-24
+- Added PayPal donation button as a new card in the Simple Ways to Donate section of [`app/donate/page.tsx`](app/donate/page.tsx).
+- Created [`components/paypal-donate-button.tsx`](components/paypal-donate-button.tsx) as a client component that loads the PayPal Donate SDK and renders the hosted button.
+- Reordered donation methods in [`content/donate.json`](content/donate.json) to: PayPal, Online Giving (Canada), E-Transfer, Cheque.
+
 ## 1.0.2 - 2026-03-20
 - Removed all US-specific donation content from [`content/donate.json`](content/donate.json).
 - Updated donate page rendering in [`app/donate/page.tsx`](app/donate/page.tsx) to support Canada online giving only.
