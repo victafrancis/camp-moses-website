@@ -1,6 +1,7 @@
 import type { Metadata } from "next"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { Building2, Smartphone, FileText, Heart, CreditCard } from "lucide-react"
+import { Building2, FileText, Heart } from "lucide-react"
+import Image from "next/image"
 import { getDonateContent } from "@/lib/content"
 import { CopyableText } from "@/components/ui/copyable-text"
 import { PayPalDonateButton } from "@/components/paypal-donate-button"
@@ -57,10 +58,16 @@ export default function DonatePage() {
             {content.donationMethods.methods.map((method, index) => (
               <Card key={index} className="border-[#8B6F47] hover:shadow-lg transition-shadow">
                 <CardHeader className="pb-4">
-                  {method.icon === "building" && <Building2 className="w-16 h-16 mb-6 text-camp-green-old" />}
-                  {method.icon === "smartphone" && <Smartphone className="w-16 h-16 mb-6 text-camp-green-old" />}
-                  {method.icon === "file-text" && <FileText className="w-16 h-16 mb-6 text-camp-green-old" />}
-                  {method.icon === "credit-card" && <CreditCard className="w-16 h-16 mb-6 text-camp-green-old" />}
+                  {method.type === "paypal" ? (
+                    <Image src="/logos/paypal-logo.png" alt="PayPal" width={140} height={40} className="mb-6" style={{ width: "auto", height: "40px" }} />
+                  ) : method.type === "etransfer" ? (
+                    <Image src="/logos/interac-logo.png" alt="Interac e-Transfer" width={160} height={40} className="mb-6" style={{ width: "auto", height: "40px" }} />
+                  ) : (
+                    <>
+                      {method.icon === "building" && <Building2 className="w-16 h-16 mb-6 text-camp-green-old" />}
+                      {method.icon === "file-text" && <FileText className="w-16 h-16 mb-6 text-camp-green-old" />}
+                    </>
+                  )}
                   <CardTitle className="camp-text-green font-serif text-xl mb-2">{method.title}</CardTitle>
                   <CardDescription className="text-base">{method.description}</CardDescription>
                 </CardHeader>
