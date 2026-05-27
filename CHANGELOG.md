@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.4 - 2026-05-26
+- Update donation page information
+- Added Canada Helps logo to the Canada Helps donation card
+
 ## 1.0.3 - 2026-05-24
 - Added PayPal donation button as a new card in the Simple Ways to Donate section of [`app/donate/page.tsx`](app/donate/page.tsx).
 - Created [`components/paypal-donate-button.tsx`](components/paypal-donate-button.tsx) as a client component that loads the PayPal Donate SDK and renders the hosted button.
