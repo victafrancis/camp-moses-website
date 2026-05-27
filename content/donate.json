@@ -35,7 +35,7 @@
       },
       {
         "type": "online-canada",
-        "title": "Online Giving (Canada)",
+        "title": "Canada Helps",
         "description": "Donate by credit or debit card",
         "icon": "building",
         "details": {
@@ -52,7 +52,7 @@
         "details": {
           "recipient": "Gateway International Fellowship of Toronto",
           "email": "gifttoronto.org@gmail.com",
-          "important": "IMPORTANT FOR TAX RECEIPTS: In the Message/Memo field of your e-Transfer, you MUST include your: Full Name, Email Address, and Home Address. We need this information to issue your tax-deductible receipt."
+          "important": "Please include the following in the Message/Memo field so we can issue your tax receipt: Full Name, Email Address, and Home Address. We kindly ask for this information to send your tax-deductible receipt."
         }
       },
       {
@@ -63,7 +63,8 @@
         "details": {
           "payableTo": "Gateway International Fellowship of Toronto (GIFT)",
           "mailAddress": "27 Coltman Cres.\nScarborough, Ontario\nCanada M1B 2A3",
-          "note": "Issue your donation cheque to Gateway International Fellowship of Toronto (GIFT)"
+          "note": "Issue your donation cheque to Gateway International Fellowship of Toronto (GIFT)",
+          "taxNote": "Please include your Full Name, Email Address, and Home Address on a note with your cheque so we can issue your tax receipt."
         }
       }
     ]

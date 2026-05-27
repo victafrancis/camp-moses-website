@@ -59,12 +59,13 @@ export default function DonatePage() {
               <Card key={index} className="border-[#8B6F47] hover:shadow-lg transition-shadow">
                 <CardHeader className="pb-4">
                   {method.type === "paypal" ? (
-                    <Image src="/logos/paypal-logo.png" alt="PayPal" width={140} height={40} className="mb-6" style={{ width: "auto", height: "40px" }} />
+                    <Image src="/logos/paypal-logo.png" alt="PayPal" width={140} height={40} className="mb-6 h-10 w-auto" />
                   ) : method.type === "etransfer" ? (
-                    <Image src="/logos/interac-logo.png" alt="Interac e-Transfer" width={160} height={40} className="mb-6" style={{ width: "auto", height: "40px" }} />
+                    <Image src="/logos/interac-logo.png" alt="Interac e-Transfer" width={160} height={40} className="mb-6 h-10 w-auto" />
+                  ) : method.type === "online-canada" ? (
+                    <Image src="/logos/canada-helps-logo.png" alt="Canada Helps" width={160} height={40} className="mb-6 h-10 w-auto" />
                   ) : (
                     <>
-                      {method.icon === "building" && <Building2 className="w-16 h-16 mb-6 text-camp-green-old" />}
                       {method.icon === "file-text" && <FileText className="w-16 h-16 mb-6 text-camp-green-old" />}
                     </>
                   )}
@@ -92,7 +93,7 @@ export default function DonatePage() {
                         <div className="flex items-start gap-3">
                           <span className="text-2xl">⚠️</span>
                           <div>
-                            <p className="font-bold text-amber-800 text-lg mb-2">IMPORTANT FOR TAX RECEIPTS</p>
+                            <p className="font-bold text-amber-800 text-lg mb-2">Tax Receipt Information</p>
                             <p className="text-amber-700 leading-relaxed">{method.details.important}</p>
                           </div>
                         </div>
@@ -111,6 +112,17 @@ export default function DonatePage() {
                           {method.details.mailAddress}
                         </div>
                       </div>
+                      {method.details.taxNote && (
+                        <div className="bg-red-50 border-2 border-red-200 p-6 rounded-lg mt-4">
+                          <div className="flex items-start gap-3">
+                            <span className="text-2xl">⚠️</span>
+                            <div>
+                              <p className="font-bold text-amber-800 text-lg mb-2">Tax Receipt Information</p>
+                              <p className="text-amber-700 leading-relaxed">{method.details.taxNote}</p>
+                            </div>
+                          </div>
+                        </div>
+                      )}
                     </>
                   )}
                   {method.type === "online-canada" && (
