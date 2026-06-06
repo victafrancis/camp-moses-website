@@ -18,6 +18,7 @@ const merriweather = Merriweather({
 })
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://campmoses.org"),
   title: "Camp Moses - Discover Nature, Rediscover Your Soul",
   description:
     "A sanctuary family camp and retreat center in Tapaz, Capiz. Experience life-changing retreats, youth camps, and connect with God in nature.",
