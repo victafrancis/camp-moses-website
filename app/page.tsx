@@ -26,6 +26,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Camp Moses - Discover Nature, Rediscover Your Soul",
     description: "A sanctuary Christian retreat center in Tapaz, Capiz",
+    images: ["/og-social-card.png"],
   },
 }
 
