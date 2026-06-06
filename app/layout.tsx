@@ -32,8 +32,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/camp-moses-skyline.webp",
-        width: 1200,
-        height: 630,
+        width: 2720,
+        height: 1568,
         alt: "Camp Moses - Skyline View",
       },
     ],
