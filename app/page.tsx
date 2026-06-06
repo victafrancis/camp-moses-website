@@ -21,20 +21,12 @@ export const metadata: Metadata = {
     type: "website",
     siteName: "Camp Moses",
     locale: "en_PH",
-    images: [
-      {
-        url: "/camp-moses-skyline.webp",
-        width: 1200,
-        height: 630,
-        alt: "Camp Moses - Skyline View",
-      },
-    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Camp Moses - Discover Nature, Rediscover Your Soul",
     description: "A sanctuary Christian retreat center in Tapaz, Capiz",
-    images: ["/camp-moses-skyline.webp"],
+    images: ["/og-social-card.png"],
   },
 }
 

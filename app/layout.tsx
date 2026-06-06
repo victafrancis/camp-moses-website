@@ -31,10 +31,10 @@ export const metadata: Metadata = {
     siteName: "Camp Moses",
     images: [
       {
-        url: "/camp-moses-skyline.webp",
+        url: "/og-social-card.png",
         width: 1200,
         height: 630,
-        alt: "Camp Moses - Skyline View",
+        alt: "Camp Moses - Discover Nature, Rediscover Your Soul",
       },
     ],
   },
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Camp Moses - Discover Nature, Rediscover Your Soul",
     description: "A sanctuary family camp and retreat center in Tapaz, Capiz",
-    images: ["/camp-moses-skyline.webp"],
+    images: ["/og-social-card.png"],
   },
   icons: {
     icon: "/favicon.ico",
