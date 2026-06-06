@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.0.5 - 2026-06-06
+- Added `public/og-social-card.png` (1200×630) as the static Open Graph social card image, using the mountain background photo, Camp Moses logo, and brand colors (`#505a27` green, `#f79225` orange accent).
+- Added `metadataBase` to the root layout metadata so relative `og:image` paths resolve to absolute URLs for Facebook/Messenger link previews.
+- Updated `og:image` and `twitter:image` in [`app/layout.tsx`](app/layout.tsx) and [`app/page.tsx`](app/page.tsx) to use the new social card.
+
 ## 1.0.4 - 2026-05-26
 - Update donation page information
 - Added Canada Helps logo to the Canada Helps donation card
