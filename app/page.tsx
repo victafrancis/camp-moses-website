@@ -21,6 +21,14 @@ export const metadata: Metadata = {
     type: "website",
     siteName: "Camp Moses",
     locale: "en_PH",
+    images: [
+      {
+        url: "/og-social-card.png",
+        width: 1200,
+        height: 630,
+        alt: "Camp Moses - Discover Nature, Rediscover Your Soul",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
